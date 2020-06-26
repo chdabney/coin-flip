@@ -8,8 +8,8 @@ let coin = {
         /* 1. Randomly set your coin object's "state" property to be either 
            0 or 1: use "this.state" to access the "state" property on this object.*/
 
-        let flip = Math.round(Math.random())
-        this.state = flip
+        this.state = Math.round(Math.random())
+        return this.state
 
 
     },
